@@ -50,13 +50,15 @@ const Home = ({ dark }) => {
             <li>
               <a href="https://www.linkedin.com/in/zisam-shaikh-2a2697290/"
               target="_blank"
+              rel="noreferrer"
               >
                 <img className="svg" src="img/svg/social/linkedin.svg" alt="" />
               </a>
             </li>
             <li>
               <a href="https://instagram.com/zisam_shaikh?igshid=OGQ5ZDc2ODk2ZA=="
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
                 <img
                   className="svg"
                   src="img/svg/social/instagarm.svg"

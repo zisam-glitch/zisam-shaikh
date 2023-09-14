@@ -1,13 +1,10 @@
-// import Head from "next/head";
-
-import { Fragment } from "react";
-import "../styles/globals.css";
-
-function MyApp({ Component, pageProps }) {
-  return (
-    <Fragment>
-
-      {/* <Head>
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+ 
+class MyDocument extends Document {
+  render() {
+    return (
+      <Html>
+       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap"
           rel="stylesheet"
@@ -24,11 +21,14 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
-      </Head> */}
-      <Component {...pageProps} />
-
-    </Fragment>
-  );
+      </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
+  }
 }
-
-export default MyApp;
+ 
+export default MyDocument

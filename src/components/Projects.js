@@ -51,7 +51,8 @@ const Projects = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <a href="https://www.mvemanagement.com/"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/37-40.jpg" alt="" />
@@ -70,7 +71,8 @@ const Projects = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <a href="https://superlink.me/"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/37-40.jpg" alt="" />
@@ -89,7 +91,8 @@ const Projects = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <a href="https://www.karoobioscience.com/"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/37-40.jpg" alt="" />
@@ -108,7 +111,8 @@ const Projects = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <a href="https://www.ward.work/"
-                  target="_blank">
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="list_inner">
                       <div className="image">
                         <img src="img/thumbs/37-40.jpg" alt="" />
